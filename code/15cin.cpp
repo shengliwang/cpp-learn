@@ -16,14 +16,14 @@ int main(void){
 	//std::cout << "new c = " << c << std::endl;
 
 	std::string str = "hello";
-//	std::cout << "str = " << str << std::endl;
-//	std::cin >> str;
-//	std::cout << "new str = " << str << std::endl;
+	std::cout << "str = " << str << std::endl;
+	std::cin >> str;
+	std::cout << "new str = " << str << std::endl;
 
-	bool flag = false;
-	std::cout << "flag = " << flag << std::endl;
-	std::cin >> flag;
-	std::cout << "new flag = " << flag << std::endl;
+//	bool flag = false;
+//	std::cout << "flag = " << flag << std::endl;
+//	std::cin >> flag;
+//	std::cout << "new flag = " << flag << std::endl;
 
 	return 0;
 }
